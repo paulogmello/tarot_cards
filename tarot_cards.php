@@ -113,7 +113,7 @@ shuffle($cards_name);
 ?>
 <div class="row justify-content-center align-items-center my-3">
     <?php foreach ($cards as $i => $card) : ?>
-        <div class="col-md-2">
+        <div class="col-md-2 col-4">
             <div class="p-1">
                 <a href="#<?= renomearCarta($card[0]) ?>" data-bs-toggle="modal" data-bs-target="#<?= renomearCarta($card[0]) ?>">
                     <img src="./assets/tarot/card_back.webp" alt="" class="img-fluid">
