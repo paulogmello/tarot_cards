@@ -116,7 +116,7 @@ shuffle($cards_name);
         <div class="col-md-2">
             <div class="p-1">
                 <a href="#<?= renomearCarta($card[0]) ?>" data-bs-toggle="modal" data-bs-target="#<?= renomearCarta($card[0]) ?>">
-                    <img src="./assets/tarot/card_back.png" alt="" class="img-fluid">
+                    <img src="./assets/tarot/card_back.webp" alt="" class="img-fluid">
                 </a>
             </div>
         </div>
@@ -132,7 +132,7 @@ shuffle($cards_name);
 
                     <div class="row">
                         <div class="col-6">
-                            <img src="./assets/tarot/<?= $i ?>.png" alt="" class="img-fluid">
+                            <img src="./assets/tarot/<?= $i ?>.webp" alt="" class="img-fluid">
                         </div>
                         <div class="col text-start text-light">
                             <div class="row align-items-end h-100">
